@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function FeaturesCards() {
     return (
       <div className="flex flex-col justify-center items-center p-[10px] gap-20">
-        <div className="flex justify-center items-center max-w-[1180px] gap-6">
-          <div className="flex flex-col justify-center w-[578px] h-[372px] rounded-[20px] overflow-hidden border-none bg-[#0B0121] p-[60px] gap-4 shadow-inner shadow-white/50 drop-shadow-xl">
+        <div className="flex flex-col xl:flex-row justify-center items-center w-[350px] xl:w-[1180px] gap-6">
+          <div className="flex flex-col justify-center xl:w-[578px] xl:h-[372px] rounded-[20px] overflow-hidden border-none bg-[#0B0121] p-[60px] gap-4 shadow-inner shadow-white/50 drop-shadow-xl">
             <div className="shadow-2xl shadow-[#591DDDBF]/75 w-[50px] h-[50px]">
               <Image
                 alt="icon"
@@ -32,7 +32,7 @@ export default function FeaturesCards() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center w-[578px] h-[372px] rounded-[20px] overflow-hidden border-none bg-[#0B0121] p-[60px] gap-4 shadow-inner shadow-white/50 drop-shadow-xl">
+          <div className="flex flex-col justify-center xl:w-[578px] xl:h-[372px] rounded-[20px] overflow-hidden border-none bg-[#0B0121] p-[60px] gap-4 shadow-inner shadow-white/50 drop-shadow-xl">
             <div className="shadow-2xl shadow-[#591DDDBF]/75 w-[50px] h-[50px]">
               <Image
                 alt="icon"
@@ -60,8 +60,8 @@ export default function FeaturesCards() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center w-[1180px] h-[422px] rounded-[20px] overflow-hidden border-none bg-[#0B0121] p-[60px] gap-4 shadow-inner shadow-white/50 drop-shadow-xl">
-          <div className="flex flex-col w-[460px] h-[302px] gap-6">
+        <div className="flex flex-col xl:flex-row justify-between items-center w-[350px] xl:w-[1180px] xl:h-[422px] rounded-[20px] overflow-hidden border-none bg-[#0B0121] p-[60px] gap-4 shadow-inner shadow-white/50 drop-shadow-xl">
+          <div className="flex flex-col xl:w-[460px] xl:h-[302px] gap-6">
             <div className="shadow-2xl shadow-[#C925ABBF]/75 w-[50px] h-[50px]">
               <Image
                 alt="icon"
@@ -82,14 +82,14 @@ export default function FeaturesCards() {
                 synchronization technology makes it easy to collaborate and
                 ensure that your data is consistent and reliable.
               </p>
-              <div className="flex pt-4 gap-4">
+              <div className="flex pt-4 gap-4 ">
                 <a className="flex rounded-[4px] gap-2 font-medium underline leading-6 cursor-pointer">
                   View code collaboration
                 </a>
               </div>
             </div>
           </div>
-          <div className="flex w-[467px] h-[300px] rounded-[20px]">
+          <div className="flex xl:w-[467px] xl:h-[300px] rounded-[20px] pt-6 xl:pt-0">
             <Image
               alt="icon"
               src="/Image.png"

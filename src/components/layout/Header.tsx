@@ -7,9 +7,9 @@ export default function Header() {
     
     
     return (
-      <header className="flex justify-between items-center pt-[30px]">
-        <div className="flex justify-between items-center w-[1379px] h-[72px] rounded-[25px] px-[40px] bg-[#0B081C80]/50">
-          <div className="flex justify-center items-center w-[138px] h-[22px] gap-[10px]">
+      <header className="flex justify-center  xl:justify-between items-center pt-[30px]">
+        <div className="flex flex-col md:flex-row justify-center xl:justify-between items-center w-80 md:w-11/12  xl:w-[1379px] xl:h-[72px] rounded-[25px] px-[40px] py-4 md:py-0 bg-[#0B081C80]/50">
+          <div className="flex justify-center items-center lg:w-[138px] lg:h-[22px] gap-[10px]">
             <Image
               src="/Logo.png"
               alt="logo"

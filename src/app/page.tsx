@@ -18,17 +18,18 @@ export default function Home() {
         className="absolute w-full h-full z-0"
       />
       <main className=" flex  flex-col items-center z-10 text-[#ECECEC]">
-        <div className="flex flex-col px-5 pb-20 gap-20">
+        <div className="flex flex-col px-5 pb-4 xl:pb-20 gap-20">
           <Header />
           <Hero />
         </div>
-        <div className="flex justify-center items-center w-full py-[60px] px-5 gap-10">
+        <div className="flex justify-center items-center w-full xl:py-[60px] px-5 gap-10">
           <Image
             alt="Logo-Title"
             src="/Logo-Title.png"
             width={1440}
             height={200}
-            quality={100} />
+            quality={100}
+          />
         </div>
         <Features />
         <SectionBis />
